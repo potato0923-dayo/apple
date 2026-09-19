@@ -20,7 +20,9 @@
                 max-width: 100%;
                 height: auto;
             }
-
+            .sp-br {
+                display: none;
+            }
             /* スマホ用 */
             @media (max-width: 600px) {
                 body {
@@ -28,7 +30,7 @@
                 }
 
                 h1 {
-                    font-size: 24px !important;
+                    font-size: 32px !important;
                 }
 
                 p {
@@ -39,6 +41,9 @@
                     width: 100%;
                     max-width: 500px;
                 }
+                .sp-br {
+                    display: inline;
+                }
             }
         </style>
     </head>
@@ -46,7 +51,7 @@
         <h1>僕からのお知らせ</h1>
         <img src="0696464-01.avif">
         <h1 style="font-size: 60px;">
-            僕を大事にたくさん使ってくれて、ありがとう！
+            僕を大事にたくさん<span class="sp-br"><br></span>使ってくれて、ありがとう！
         </h1>
         <p>僕は2016年9月に世の中に出ました！</p>
         <p>あなたは、発売されてすぐに僕を買いに来ました。</p>
