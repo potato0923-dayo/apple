@@ -1,22 +1,54 @@
+```html
 <!DOCTYPE html>
 <html>
     <head>
         <title>てすと</title>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
         <style>
             body {
                 text-align: center;
+                margin: 0;
+                padding: 20px;
             }
+
             p {
                 font-size: 32px;
+            }
+
+            img {
+                max-width: 100%;
+                height: auto;
+            }
+
+            /* スマホ用 */
+            @media (max-width: 600px) {
+                body {
+                    padding: 10px;
+                }
+
+                h1 {
+                    font-size: 32px !important;
+                }
+
+                p {
+                    font-size: 20px;
+                }
+
+                img {
+                    width: 100%;
+                    max-width: 500px;
+                }
             }
         </style>
     </head>
     <body>
         <h1>僕からのお知らせ</h1>
         <img src="0696464-01.avif">
-        <h1 style="font-size: 60px;">僕を大事にたくさん使ってくれて、ありがとう！</h1>
+        <h1 style="font-size: 60px;">
+            僕を大事にたくさん使ってくれて、ありがとう！
+        </h1>
         <p>僕は2016年9月に世の中に出ました！</p>
         <p>あなたは、発売されてすぐに僕を買いに来ました。</p>
         <p>その時のあなたの目は、とってもキラキラしてました。</p>
@@ -24,11 +56,15 @@
         <p>家でゴロゴロしていてもあなたのそばにいました！</p>
         <p>振り返ってみれば写真はもう何百枚も撮られてたんですね。</p>
         <p>僕はあなたのiPhoneだった10年間を本体メモリーに刻んでいます。</p>
-        <h1 style="font-size: 60px;">これからも僕はあなたのiPhoneでいます。</h1>
+        <h1 style="font-size: 60px;">
+            これからも僕はあなたのiPhoneでいます。
+        </h1>
         <p>もしも、古いので売るから初期化しても、</p>
         <p>あなたとの思い出は削除できません。</p>
         <p>あなたとの思い出は永遠の記録です。</p>
-        <h1 style="font-size: 60px;">僕のことも覚えておいてください。</h1>
+        <h1 style="font-size: 60px;">
+            僕のことも覚えておいてください。
+        </h1>
         <br>
         <br>
         <br>
